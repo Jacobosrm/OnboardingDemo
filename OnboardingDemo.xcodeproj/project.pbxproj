@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793C9116E9B230233E0D3A6C /* Pods_OnboardingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D47B86BCFCAEC8FE976B0D2C /* Pods_OnboardingDemo.framework */; };
 		948FBD1B2B3FA93900E930CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FBD1A2B3FA93900E930CC /* AppDelegate.swift */; };
 		948FBD1D2B3FA93900E930CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FBD1C2B3FA93900E930CC /* SceneDelegate.swift */; };
 		948FBD1F2B3FA93900E930CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948FBD1E2B3FA93900E930CC /* ViewController.swift */; };
 		948FBD222B3FA93900E930CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948FBD202B3FA93900E930CC /* Main.storyboard */; };
 		948FBD242B3FA93A00E930CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948FBD232B3FA93A00E930CC /* Assets.xcassets */; };
 		948FBD272B3FA93A00E930CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948FBD252B3FA93A00E930CC /* LaunchScreen.storyboard */; };
+		94BC4F8B2B44130100ADA3C9 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F7E2B44130100ADA3C9 /* Roboto-Medium.ttf */; };
+		94BC4F8C2B44130100ADA3C9 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F7F2B44130100ADA3C9 /* Roboto-Light.ttf */; };
+		94BC4F8D2B44130100ADA3C9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F802B44130100ADA3C9 /* Roboto-Regular.ttf */; };
+		94BC4F8E2B44130100ADA3C9 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F812B44130100ADA3C9 /* Roboto-MediumItalic.ttf */; };
+		94BC4F8F2B44130100ADA3C9 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F822B44130100ADA3C9 /* Roboto-ThinItalic.ttf */; };
+		94BC4F902B44130100ADA3C9 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F832B44130100ADA3C9 /* Roboto-BoldItalic.ttf */; };
+		94BC4F912B44130100ADA3C9 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F842B44130100ADA3C9 /* Roboto-LightItalic.ttf */; };
+		94BC4F922B44130100ADA3C9 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F852B44130100ADA3C9 /* Roboto-Italic.ttf */; };
+		94BC4F932B44130100ADA3C9 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F862B44130100ADA3C9 /* LICENSE.txt */; };
+		94BC4F942B44130100ADA3C9 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F872B44130100ADA3C9 /* Roboto-BlackItalic.ttf */; };
+		94BC4F952B44130100ADA3C9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F882B44130100ADA3C9 /* Roboto-Bold.ttf */; };
+		94BC4F962B44130100ADA3C9 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F892B44130100ADA3C9 /* Roboto-Thin.ttf */; };
+		94BC4F972B44130100ADA3C9 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94BC4F8A2B44130100ADA3C9 /* Roboto-Black.ttf */; };
+		94DBA65D2B40519700519FE2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DBA65C2B40519700519FE2 /* LoginView.swift */; };
+		94DBA65F2B4071C000519FE2 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DBA65E2B4071C000519FE2 /* CheckboxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AF78295C6FBC71A0C5492B0 /* Pods-OnboardingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingDemo.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingDemo/Pods-OnboardingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		948FBD172B3FA93900E930CC /* OnboardingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948FBD1A2B3FA93900E930CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		948FBD1C2B3FA93900E930CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,23 @@
 		948FBD232B3FA93A00E930CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948FBD262B3FA93A00E930CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		948FBD282B3FA93A00E930CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BC4F7E2B44130100ADA3C9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		94BC4F7F2B44130100ADA3C9 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		94BC4F802B44130100ADA3C9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		94BC4F812B44130100ADA3C9 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		94BC4F822B44130100ADA3C9 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		94BC4F832B44130100ADA3C9 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		94BC4F842B44130100ADA3C9 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		94BC4F852B44130100ADA3C9 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		94BC4F862B44130100ADA3C9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		94BC4F872B44130100ADA3C9 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		94BC4F882B44130100ADA3C9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		94BC4F892B44130100ADA3C9 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		94BC4F8A2B44130100ADA3C9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		94DBA65C2B40519700519FE2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		94DBA65E2B4071C000519FE2 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		CA28BEB082F248F43BACC469 /* Pods-OnboardingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingDemo.release.xcconfig"; path = "Target Support Files/Pods-OnboardingDemo/Pods-OnboardingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D47B86BCFCAEC8FE976B0D2C /* Pods_OnboardingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793C9116E9B230233E0D3A6C /* Pods_OnboardingDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D74C63F9B7B8D99444E3318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AF78295C6FBC71A0C5492B0 /* Pods-OnboardingDemo.debug.xcconfig */,
+				CA28BEB082F248F43BACC469 /* Pods-OnboardingDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		948FBD0E2B3FA93900E930CC = {
 			isa = PBXGroup;
 			children = (
 				948FBD192B3FA93900E930CC /* OnboardingDemo */,
 				948FBD182B3FA93900E930CC /* Products */,
+				3D74C63F9B7B8D99444E3318 /* Pods */,
+				D367D3A7DB178F7DD89214B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +107,57 @@
 				948FBD1E2B3FA93900E930CC /* ViewController.swift */,
 				948FBD202B3FA93900E930CC /* Main.storyboard */,
 				948FBD232B3FA93A00E930CC /* Assets.xcassets */,
+				94BC4F7B2B44122000ADA3C9 /* Resources */,
 				948FBD252B3FA93A00E930CC /* LaunchScreen.storyboard */,
 				948FBD282B3FA93A00E930CC /* Info.plist */,
+				94DBA65C2B40519700519FE2 /* LoginView.swift */,
+				94DBA65E2B4071C000519FE2 /* CheckboxView.swift */,
 			);
 			path = OnboardingDemo;
+			sourceTree = "<group>";
+		};
+		94BC4F7B2B44122000ADA3C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94BC4F7C2B44123000ADA3C9 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94BC4F7C2B44123000ADA3C9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				94BC4F7D2B44130100ADA3C9 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		94BC4F7D2B44130100ADA3C9 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				94BC4F7E2B44130100ADA3C9 /* Roboto-Medium.ttf */,
+				94BC4F7F2B44130100ADA3C9 /* Roboto-Light.ttf */,
+				94BC4F802B44130100ADA3C9 /* Roboto-Regular.ttf */,
+				94BC4F812B44130100ADA3C9 /* Roboto-MediumItalic.ttf */,
+				94BC4F822B44130100ADA3C9 /* Roboto-ThinItalic.ttf */,
+				94BC4F832B44130100ADA3C9 /* Roboto-BoldItalic.ttf */,
+				94BC4F842B44130100ADA3C9 /* Roboto-LightItalic.ttf */,
+				94BC4F852B44130100ADA3C9 /* Roboto-Italic.ttf */,
+				94BC4F862B44130100ADA3C9 /* LICENSE.txt */,
+				94BC4F872B44130100ADA3C9 /* Roboto-BlackItalic.ttf */,
+				94BC4F882B44130100ADA3C9 /* Roboto-Bold.ttf */,
+				94BC4F892B44130100ADA3C9 /* Roboto-Thin.ttf */,
+				94BC4F8A2B44130100ADA3C9 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		D367D3A7DB178F7DD89214B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D47B86BCFCAEC8FE976B0D2C /* Pods_OnboardingDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 948FBD2B2B3FA93A00E930CC /* Build configuration list for PBXNativeTarget "OnboardingDemo" */;
 			buildPhases = (
+				52AC3CC624A87A8618594211 /* [CP] Check Pods Manifest.lock */,
 				948FBD132B3FA93900E930CC /* Sources */,
 				948FBD142B3FA93900E930CC /* Frameworks */,
 				948FBD152B3FA93900E930CC /* Resources */,
+				6B80DBBFC92DCB08E3F04950 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +220,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BC4F952B44130100ADA3C9 /* Roboto-Bold.ttf in Resources */,
+				94BC4F932B44130100ADA3C9 /* LICENSE.txt in Resources */,
+				94BC4F902B44130100ADA3C9 /* Roboto-BoldItalic.ttf in Resources */,
+				94BC4F8D2B44130100ADA3C9 /* Roboto-Regular.ttf in Resources */,
+				94BC4F912B44130100ADA3C9 /* Roboto-LightItalic.ttf in Resources */,
+				94BC4F8B2B44130100ADA3C9 /* Roboto-Medium.ttf in Resources */,
 				948FBD272B3FA93A00E930CC /* LaunchScreen.storyboard in Resources */,
+				94BC4F942B44130100ADA3C9 /* Roboto-BlackItalic.ttf in Resources */,
+				94BC4F962B44130100ADA3C9 /* Roboto-Thin.ttf in Resources */,
+				94BC4F8C2B44130100ADA3C9 /* Roboto-Light.ttf in Resources */,
+				94BC4F8F2B44130100ADA3C9 /* Roboto-ThinItalic.ttf in Resources */,
+				94BC4F972B44130100ADA3C9 /* Roboto-Black.ttf in Resources */,
+				94BC4F8E2B44130100ADA3C9 /* Roboto-MediumItalic.ttf in Resources */,
 				948FBD242B3FA93A00E930CC /* Assets.xcassets in Resources */,
+				94BC4F922B44130100ADA3C9 /* Roboto-Italic.ttf in Resources */,
 				948FBD222B3FA93900E930CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52AC3CC624A87A8618594211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B80DBBFC92DCB08E3F04950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingDemo/Pods-OnboardingDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingDemo/Pods-OnboardingDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingDemo/Pods-OnboardingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		948FBD132B3FA93900E930CC /* Sources */ = {
@@ -140,6 +290,8 @@
 			files = (
 				948FBD1F2B3FA93900E930CC /* ViewController.swift in Sources */,
 				948FBD1B2B3FA93900E930CC /* AppDelegate.swift in Sources */,
+				94DBA65D2B40519700519FE2 /* LoginView.swift in Sources */,
+				94DBA65F2B4071C000519FE2 /* CheckboxView.swift in Sources */,
 				948FBD1D2B3FA93900E930CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +439,14 @@
 		};
 		948FBD2C2B3FA93A00E930CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF78295C6FBC71A0C5492B0 /* Pods-OnboardingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6435M53WJ6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OnboardingDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +454,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +470,14 @@
 		};
 		948FBD2D2B3FA93A00E930CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA28BEB082F248F43BACC469 /* Pods-OnboardingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6435M53WJ6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OnboardingDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +485,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

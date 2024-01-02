@@ -1,24 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OnboardingDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBd-nq-MZ8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inicia sesión" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyp-8v-8Xs">
+                                        <rect key="frame" x="50" y="67" width="275" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" red="0.10196078431372549" green="0.12549019607843137" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correo electrónico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="url-If-iwd">
+                                        <rect key="frame" x="50" y="128" width="275" height="14"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                        <color key="textColor" red="0.40000003579999999" green="0.40000003579999999" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YXa-CT-ZkI">
+                                        <rect key="frame" x="50" y="145" width="275" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="sO2-gP-axG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ab-tg-9HW">
+                                        <rect key="frame" x="50" y="200" width="275" height="14"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                        <color key="textColor" red="0.40000003579999999" green="0.40000003579999999" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xd0-ne-cAw">
+                                        <rect key="frame" x="50" y="217" width="275" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="gve-8s-5Mk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Olvidaste tu contraseña?" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4p-9m-9LX">
+                                        <rect key="frame" x="155" y="260" width="170" height="16.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="170" id="3wp-uC-c4D"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.1725490093" green="0.32156863810000003" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XtY-VY-rSa">
+                                        <rect key="frame" x="50" y="50" width="275" height="17"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.1764705882352941" green="0.21568627450980393" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nav-YR-sXo">
+                                        <rect key="frame" x="50" y="377.5" width="275" height="48"/>
+                                        <color key="backgroundColor" red="0.48627450980392156" green="0.22745098039215686" blue="0.92941176470588238" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="Pwz-aI-W8C"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ingresar">
+                                            <fontDescription key="titleFontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginNormalButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2bP-9p-Oz1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAi-X2-M0j">
+                                        <rect key="frame" x="50" y="445.5" width="275" height="48"/>
+                                        <color key="backgroundColor" red="0.1764705882352941" green="0.21568627450980393" blue="0.28235294117647058" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="aL0-ou-Bg8"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="ico_google" imagePlacement="leading" title="Ingresar con google" imagePadding="3">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                            <fontDescription key="titleFontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                            <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginGoogleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4db-Rq-10O"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2w-Bc-cUf" userLabel="RecordarView">
+                                        <rect key="frame" x="50" y="306.5" width="275" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcl-tp-pqd" customClass="PMSuperButton" customModule="PMSuperButton">
+                                                <rect key="frame" x="8" y="8" width="20" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="hIh-e6-fQw"/>
+                                                    <constraint firstAttribute="width" constant="20" id="iCN-7R-m0c"/>
+                                                </constraints>
+                                                <color key="tintColor" red="0.48627450979999998" green="0.2274509804" blue="0.92941176469999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="checkboxButton" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.48627450979999998" green="0.2274509804" blue="0.92941176469999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                        <color key="value" red="0.48627450979999998" green="0.2274509804" blue="0.92941176469999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recordar correo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdR-FF-MiY">
+                                                <rect key="frame" x="33" y="8" width="192" height="20"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" red="0.1764705882" green="0.2156862745" blue="0.28235294119999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="jcl-tp-pqd" firstAttribute="leading" secondItem="v2w-Bc-cUf" secondAttribute="leading" constant="8" id="2CI-Cr-ijd"/>
+                                            <constraint firstItem="pdR-FF-MiY" firstAttribute="top" secondItem="v2w-Bc-cUf" secondAttribute="top" constant="8" id="2LT-Ko-GcA"/>
+                                            <constraint firstAttribute="trailing" secondItem="pdR-FF-MiY" secondAttribute="trailing" constant="50" id="BqX-07-z7m"/>
+                                            <constraint firstItem="jcl-tp-pqd" firstAttribute="top" secondItem="v2w-Bc-cUf" secondAttribute="top" constant="8" id="RJg-s8-fce"/>
+                                            <constraint firstItem="pdR-FF-MiY" firstAttribute="leading" secondItem="jcl-tp-pqd" secondAttribute="trailing" constant="5" id="aOR-S4-Mkx"/>
+                                            <constraint firstAttribute="bottom" secondItem="pdR-FF-MiY" secondAttribute="bottom" constant="8" id="wbx-ie-Ols"/>
+                                            <constraint firstAttribute="bottom" secondItem="jcl-tp-pqd" secondAttribute="bottom" constant="8" id="zsH-no-OVP"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uy-xp-Dpc">
+                                        <rect key="frame" x="291" y="225" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="7x0-RJ-cA7"/>
+                                            <constraint firstAttribute="width" constant="24" id="dnN-cw-eYQ"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.1764705882" green="0.2156862745" blue="0.28235294119999998" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="eye.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="showPasswordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L6T-gn-BM8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="v2w-Bc-cUf" firstAttribute="top" secondItem="R4p-9m-9LX" secondAttribute="bottom" constant="30" id="267-TD-LWJ"/>
+                                    <constraint firstItem="XtY-VY-rSa" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="5G4-lS-o7q"/>
+                                    <constraint firstItem="5Ab-tg-9HW" firstAttribute="top" secondItem="YXa-CT-ZkI" secondAttribute="bottom" constant="15" id="94e-vS-G0p"/>
+                                    <constraint firstAttribute="trailing" secondItem="XtY-VY-rSa" secondAttribute="trailing" constant="50" id="CMA-kV-H3P"/>
+                                    <constraint firstItem="xd0-ne-cAw" firstAttribute="top" secondItem="5Ab-tg-9HW" secondAttribute="bottom" constant="3" id="EzB-Kx-bfM"/>
+                                    <constraint firstAttribute="trailing" secondItem="R4p-9m-9LX" secondAttribute="trailing" constant="50" id="Fwn-vQ-ecu"/>
+                                    <constraint firstItem="dyp-8v-8Xs" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="GHL-OK-HqF"/>
+                                    <constraint firstItem="xd0-ne-cAw" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="HBy-yF-GWw"/>
+                                    <constraint firstAttribute="trailing" secondItem="v2w-Bc-cUf" secondAttribute="trailing" constant="50" id="K89-zW-X0p"/>
+                                    <constraint firstItem="5Ab-tg-9HW" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="LwB-ML-KcY"/>
+                                    <constraint firstItem="NAi-X2-M0j" firstAttribute="top" secondItem="Nav-YR-sXo" secondAttribute="bottom" constant="20" id="Mk6-gJ-0jQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="url-If-iwd" secondAttribute="trailing" constant="50" id="NTT-Od-J2L"/>
+                                    <constraint firstItem="XtY-VY-rSa" firstAttribute="top" secondItem="fBd-nq-MZ8" secondAttribute="top" constant="50" id="QRd-Fu-Auv"/>
+                                    <constraint firstAttribute="trailing" secondItem="YXa-CT-ZkI" secondAttribute="trailing" constant="50" id="QZC-ge-mod"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nav-YR-sXo" secondAttribute="trailing" constant="50" id="R6I-3H-HRX"/>
+                                    <constraint firstItem="Nav-YR-sXo" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="RW1-pB-yiI"/>
+                                    <constraint firstItem="Nav-YR-sXo" firstAttribute="top" secondItem="v2w-Bc-cUf" secondAttribute="bottom" constant="35" id="YSk-4b-RXE"/>
+                                    <constraint firstItem="R4p-9m-9LX" firstAttribute="top" secondItem="xd0-ne-cAw" secondAttribute="bottom" constant="3" id="a0b-yt-JJf"/>
+                                    <constraint firstItem="v2w-Bc-cUf" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="aK3-ed-atn"/>
+                                    <constraint firstAttribute="trailing" secondItem="9uy-xp-Dpc" secondAttribute="trailing" constant="60" id="bVu-Vm-Tqq"/>
+                                    <constraint firstAttribute="trailing" secondItem="xd0-ne-cAw" secondAttribute="trailing" constant="50" id="bc4-tA-kGz"/>
+                                    <constraint firstAttribute="trailing" secondItem="NAi-X2-M0j" secondAttribute="trailing" constant="50" id="chq-Vh-wGn"/>
+                                    <constraint firstItem="dyp-8v-8Xs" firstAttribute="top" secondItem="XtY-VY-rSa" secondAttribute="bottom" id="cp2-aN-06d"/>
+                                    <constraint firstAttribute="trailing" secondItem="dyp-8v-8Xs" secondAttribute="trailing" constant="50" id="f8L-ma-IfC"/>
+                                    <constraint firstItem="9uy-xp-Dpc" firstAttribute="top" secondItem="5Ab-tg-9HW" secondAttribute="bottom" constant="11" id="hcY-EK-nHo"/>
+                                    <constraint firstItem="YXa-CT-ZkI" firstAttribute="top" secondItem="url-If-iwd" secondAttribute="bottom" constant="3" id="kWD-Vk-v8b"/>
+                                    <constraint firstItem="url-If-iwd" firstAttribute="top" secondItem="dyp-8v-8Xs" secondAttribute="bottom" constant="25" id="laj-bN-gcZ"/>
+                                    <constraint firstItem="R4p-9m-9LX" firstAttribute="top" secondItem="9uy-xp-Dpc" secondAttribute="bottom" constant="11" id="qHh-1L-pXw"/>
+                                    <constraint firstItem="NAi-X2-M0j" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="qLN-W9-syC"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Ab-tg-9HW" secondAttribute="trailing" constant="50" id="sDC-9X-94q"/>
+                                    <constraint firstItem="url-If-iwd" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="v4o-nd-nTK"/>
+                                    <constraint firstItem="YXa-CT-ZkI" firstAttribute="leading" secondItem="fBd-nq-MZ8" secondAttribute="leading" constant="50" id="zoy-ns-Jby"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fBd-nq-MZ8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1YM-Q6-BOg"/>
+                            <constraint firstItem="fBd-nq-MZ8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8lg-e9-2Fm"/>
+                            <constraint firstAttribute="bottom" secondItem="fBd-nq-MZ8" secondAttribute="bottom" id="cEv-T7-9FJ"/>
+                            <constraint firstItem="fBd-nq-MZ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="imW-Xf-YOL"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bienvenidoLabel" destination="XtY-VY-rSa" id="3eR-9m-LQO"/>
+                        <outlet property="checkButton" destination="jcl-tp-pqd" id="2Vd-Ql-LtC"/>
+                        <outlet property="forgetPasswordLabel" destination="R4p-9m-9LX" id="1WZ-8n-dFU"/>
+                        <outlet property="iniciaSesionLabel" destination="dyp-8v-8Xs" id="xzm-d5-qee"/>
+                        <outlet property="loginGoogleButton" destination="NAi-X2-M0j" id="mjR-Kc-v6J"/>
+                        <outlet property="loginNormalButton" destination="Nav-YR-sXo" id="Wua-Cz-KPk"/>
+                        <outlet property="passwordTextField" destination="xd0-ne-cAw" id="fZC-Gs-m0T"/>
+                        <outlet property="showPasswordButton" destination="9uy-xp-Dpc" id="sV6-ou-w6w"/>
+                        <outlet property="userTextField" destination="YXa-CT-ZkI" id="R3h-aR-zLX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="10.4" y="-34.632683658170919"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="jcl-tp-pqd">
+            <size key="intrinsicContentSize" width="24" height="14"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="eye.fill" catalog="system" width="128" height="80"/>
+        <image name="ico_google" width="17" height="20"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
